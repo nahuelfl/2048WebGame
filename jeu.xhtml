@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>2048</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type="text/javascript" src="script.js" charset="utf-8"></script>
+    </head>
+
+    <body onload="start()">
+        <div id="jeu-section"> 
+            <div id="headerJeu"> 
+                <h1>2048</h1>
+                <h3>Moves <br></br> <span id="moveCount">0</span></h3>
+                <p>Join the numbers and get to the <span class="bold">2048 tile!</span></p>
+                <div id="boutonRestart"  onclick="restart()"><p><span class="bold">New Game</span></p></div>
+            </div>
+        
+            <div> 
+                <table id="tableJeu">
+                    <tbody id="jeu">
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="boutonSettings" onclick="settings()"><p>Settings</p></div>
+        </div>
+    </body>
+</html>

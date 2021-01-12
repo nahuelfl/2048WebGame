@@ -1,0 +1,257 @@
+/* ----------- General XHTML Elements Section - */
+html body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+hr{
+    width: 60%;
+    margin-top: 2.5%;
+    border-style: solid;
+    border-color: #c2c2c2;
+}
+
+#header{
+    background-color: #3a3a3a;
+}
+
+#header h1{
+    color: #ffffff;
+    font-size: 4em;
+    padding-top: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 3%;
+    font-weight: normal;
+}
+
+#header h3{
+    color: #c2c2c2;
+    font-size: 1.3em;
+    padding-left: 6%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+/* ----------- Navigation Bar ----------------- */
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 9%;
+    overflow: hidden;
+    background-color: #111111;
+}
+  
+#navigation ul li {
+    float: left;
+}
+
+#navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+   color: #5a8ceb;
+}
+
+#lien-jeu{
+    color: #5a8ceb;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+#lien-jeu:hover{
+    color: #8db4fd;
+}
+
+
+/* ----------- Introduction, Choix, Appris et Fichiers Section ----------- */
+#intro-section, #choix-section, #appris-section, #fichiers-section{
+    background-color: #e6e6e6;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#intro-section h2, #choix-section h2, #appris-section h2, #fichiers-section h2{
+    font-size: 1.8em;
+    padding-top: 2%;
+    margin-top: 0%;
+    margin-left: 13%;
+}
+
+#intro-section p, #choix-section p, #appris-section ul, #fichiers-section ul{
+    font-size: 1em;
+    margin-left: 17%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c2c2c2;
+    border-radius: 10px;
+    background-color: #efefef;
+    width: 65%;
+    padding: 1%;
+}
+
+/* ----------- Appris Section ----------------- */
+#appris-section ul, #fichiers-section ul{
+    padding-left: 2.2%;
+}
+
+#appris-section ul li, #fichiers-section ul li{
+    padding-bottom: 1%;
+}
+
+/* ----------- Fichiers Section ----------------- */
+#fichiers-section h2{
+    color: #2159c0;
+}
+
+/* ----------- Footer Section ----------------- */
+#footer{
+    background-color: #3a3a3a;
+    padding: 1%;
+}
+
+#footer p{
+    color: #e4e4e4;
+    margin-left: 6%;
+    margin-bottom: 0%;
+}
+
+#footer small{
+    margin-left: 6%;
+    color: #aaaaaa;
+}
+
+/* ------ Game Section ------------------------ */
+#jeu-section{
+    margin: 0px;
+    padding: 1%;
+    height: 100%;
+}
+
+#headerJeu{
+    width: 445px;
+    margin: 0% auto;
+    padding-bottom: 3%;
+}
+
+#headerJeu h1{
+    margin: 0px;
+    font-size: 4em;
+    display: inline-block;
+}
+
+#headerJeu h3{
+    width: 23%;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: grey;
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1%;
+    margin-top: 1%;
+    float: right;
+}
+
+#headerJeu p{
+    width: 70%;
+    margin-right: 0%;
+    display: inline-block;
+}
+
+#moveCount{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#tableJeu{
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 25pt;
+    border: 0.3em solid grey;
+    border-radius: 3px;
+    background-color: grey;
+    padding: 0px;
+}
+
+#tableJeu tr{
+    border-left: none;
+}
+
+#tableJeu th{
+    font-size: 20pt;
+    margin: 20px;
+    background-color:lightGrey;
+    text-align: center;
+    height: 50px;
+    padding: 5px 0px;
+    border-left: none;
+}
+
+#tableJeu td{
+    margin: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+#boutonSettings, #boutonRestart{
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+#boutonRestart{
+    border: 1px solid #4e4e4e;
+    border-radius: 3px;
+    background-color: #4e4e4e;
+    display: inline-block;
+    width: 28%;
+    margin: 0%;
+    text-align: center;
+    color: white;
+}
+
+#boutonRestart p{
+    margin: 3% 0px;
+}
+
+#boutonRestart:hover{
+    background-color:white;
+    color: #4e4e4e;
+}
+
+#boutonSettings{
+    width: 8%;
+    margin: 1% auto;
+    text-align: center;
+    border: 1px solid #4e4e4e;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#boutonSettings p{
+    margin: 0%;
+    padding-top: 2%;
+}
+
+#boutonSettings:hover{
+    background-color: #4e4e4e;
+    color: white;
+}
